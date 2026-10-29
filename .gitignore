@@ -1,0 +1,19 @@
+# 依赖与构建产物
+node_modules/
+dist/
+backend/out/
+backend/server.log
+
+# 系统/编辑器
+.DS_Store
+*.log
+.idea/
+.vscode/
+
+# Android（frontend/android/.gitignore 已含模板规则，这里兜底）
+**/local.properties
+**/.gradle/
+**/build/
+*.apk
+*.keystore
+!debug.keystore

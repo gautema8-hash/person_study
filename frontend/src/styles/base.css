@@ -1,0 +1,51 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { background: var(--paper); -webkit-text-size-adjust: 100%; }
+body {
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.65;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+}
+button { font-family: inherit; cursor: pointer; background: none; border: none; color: inherit; text-align: left; font-size: inherit; }
+input { font-family: inherit; }
+:focus-visible { outline: 2px solid var(--cinnabar); outline-offset: 2px; border-radius: 2px; }
+img { max-width: 100%; }
+
+.shell { width: 100%; max-width: 860px; margin: 0 auto; padding: 0 var(--s4); }
+.page { padding-bottom: calc(var(--s12) + var(--safe-b)); }
+
+/* 视图切换 */
+.fade-enter-active { transition: opacity var(--tr), transform var(--tr); }
+.fade-enter-from { opacity: 0; transform: translateY(6px); }
+
+/* 通用组件样式 */
+.crumbs { display: flex; gap: var(--s2); align-items: center; font-size: 12px; color: var(--mid); padding: var(--s4) 0 var(--s2); flex-wrap: wrap; }
+.crumbs button { color: var(--mid); font-size: 12px; }
+.crumbs button:hover { color: var(--cinnabar); }
+.crumbs .here { color: var(--ink); }
+
+.chip { font-size: 10px; letter-spacing: 1px; padding: 2px 8px; border: 1px solid var(--line); border-radius: 2px; color: var(--text-2); white-space: nowrap; }
+.grade { font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 2px; letter-spacing: 1px; flex-shrink: 0; }
+.grade-A { background: var(--cinnabar); color: #fff; }
+.grade-B { background: #6E6A5E; color: #fff; }
+.grade-C { border: 1px solid #6E6A5E; color: #6E6A5E; }
+
+.btn { display: inline-flex; align-items: center; gap: 6px; padding: 10px var(--s6); border-radius: var(--r); font-size: 14px; letter-spacing: 1px; transition: all var(--tr); }
+.btn.primary { background: var(--cinnabar); color: #fff; }
+.btn.primary:hover { background: var(--cinnabar-d); }
+.btn.ghost { border: 1px solid var(--line); color: var(--ink-2); }
+.btn.ghost:hover:not(:disabled) { border-color: var(--cinnabar); color: var(--cinnabar); }
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.sec-h { display: flex; align-items: baseline; gap: var(--s3); margin: var(--s8) 0 var(--s3); }
+.sec-h h2 { font-family: var(--serif); font-size: 18px; letter-spacing: 3px; }
+.sec-h .rule { flex: 1; height: 1px; background: var(--faint); }
+
+.empty { border: 1px dashed var(--line); border-radius: var(--r); padding: var(--s8) var(--s4); text-align: center; color: var(--mid); font-size: 13px; }
+
+@media (max-width: 480px) {
+  body { font-size: 14px; }
+  .sec-h h2 { font-size: 16px; }
+}

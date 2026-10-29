@@ -1,0 +1,20 @@
+/* ═══ 账本主义 Design Tokens ═══ */
+:root {
+  --paper: #F6F2E9;
+  --paper-2: #FBF8F1;
+  --ink: #26251F;
+  --ink-2: #55524A;
+  --text-2: #6E6A5E;
+  --mid: #8A857A;
+  --faint: #E3DCCB;
+  --line: #D8D2C2;
+  --cinnabar: #B5442C;
+  --cinnabar-d: #8F331F;
+  --serif: 'Noto Serif SC', 'Source Han Serif SC', 'SimSun', serif;
+  --sans: 'Microsoft YaHei', 'Noto Sans SC', -apple-system, 'PingFang SC', system-ui, sans-serif;
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s6: 24px; --s8: 32px; --s12: 48px;
+  --r: 3px;
+  --tr: 160ms ease;
+  --safe-b: env(safe-area-inset-bottom, 0px);
+  --safe-t: env(safe-area-inset-top, 0px);
+}

@@ -1,0 +1,8 @@
+{
+  "appId": "com.rszx.renshengzhexue",
+  "appName": "人生哲学",
+  "webDir": "dist",
+  "android": { "allowMixedContent": false },
+  "ios": { "contentInset": "always" },
+  "server": { "androidScheme": "https" }
+}
