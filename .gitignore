@@ -17,3 +17,11 @@ backend/server.log
 *.apk
 *.keystore
 !debug.keystore
+
+# 签名密钥不入库（本地保留 frontend/android/rszx-release.keystore 与 keystore.properties）
+keystore.properties
+**/rszx-release.keystore
+
+# installers 中的成品包允许入库
+!installers/**/*.apk
+!installers/**/*.zip

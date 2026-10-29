@@ -6,6 +6,11 @@
 
 内容来源：[HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter)（CC BY 4.0），34 节 / 767 条 / A 级证据 492 条，每条标注成本、收益、证据等级与原始文献。
 
+## 📥 安装包
+
+- **Android**：[installers/Android/人生哲学-v1.0.0-release.apk](installers/Android/人生哲学-v1.0.0-release.apk)（签名版，直接安装）
+- **iOS**：[installers/iOS/人生哲学-iOS工程.zip](installers/iOS/人生哲学-iOS工程.zip)（Mac 上三步出 ipa，见 [installers/README.md](installers/README.md)）
+
 ## ✨ 功能
 
 - **四级导航**：首页 → 全书目录（8 大处境分组）→ 章节 → 条目详情
